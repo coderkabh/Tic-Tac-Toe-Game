@@ -16,6 +16,7 @@
         android:fontFamily="sans-serif-condensed"
         android:includeFontPadding="true"
         android:text="@string/appHead"
+        android:textAlignment="center"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -54,13 +55,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:padding="20sp" />
+                android:onClick="playerTap"
+                android:padding="20sp"
+                android:tag="0" />
 
             <ImageView
                 android:id="@+id/imageView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="playerTap"
+                android:tag="1"
                 android:padding="20sp" />
 
             <ImageView
@@ -68,6 +73,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="playerTap"
+                android:tag="2"
                 android:padding="20sp" />
 
         </LinearLayout>
@@ -83,6 +90,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="playerTap"
+                android:tag="3"
                 android:padding="20sp" />
 
             <ImageView
@@ -90,6 +99,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="playerTap"
+                android:tag="4"
                 android:padding="20sp" />
 
             <ImageView
@@ -97,6 +108,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="playerTap"
+                android:tag="5"
                 android:padding="20sp" />
 
         </LinearLayout>
@@ -112,6 +125,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="playerTap"
+                android:tag="6"
                 android:padding="20sp" />
 
             <ImageView
@@ -119,6 +134,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="playerTap"
+                android:tag="7"
                 android:padding="20sp" />
 
             <ImageView
@@ -126,6 +143,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="playerTap"
+                android:tag="8"
                 android:padding="20sp" />
 
         </LinearLayout>
