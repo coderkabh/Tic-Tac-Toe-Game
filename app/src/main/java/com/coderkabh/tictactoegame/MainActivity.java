@@ -37,15 +37,16 @@ public class MainActivity extends AppCompatActivity {
             gameState[tappedImage] = activePlayer;
             img.setTranslationY(-1000f);
             if (activePlayer == 0){
-                activePlayer = 1;
                 img.setImageResource(R.drawable.x);
+                activePlayer = 1;
             }
             else{
-                activePlayer = 0;
                 img.setImageResource(R.drawable.o);
+                activePlayer = 0;
             }
-
         }
+        img.animate().translationYBy(1000f).setDuration(300);
+
     }
 
     @Override
